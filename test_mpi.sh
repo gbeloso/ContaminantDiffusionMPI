@@ -1,13 +1,15 @@
 #!/bin/bash
 
 program="mpi"
-threads=4  # Replace this with your actual static argument value
+threads=4  # Número fixo de threads
+num_procs=3  # Número fixo de processos MPI
 
-# Number of times to run the program
+# Número máximo da grade
 n=2048
 
-for ((i=64; i<=n; i*=2)); do
-  for ((j=2; j<=n; j*=2)); do
-    ./$program $i $j $threads
+for ((num_grid=64; num_grid<=n; num_grid*=2)); do
+  for ((num_iterations=2; num_iterations<=n; num_iterations*=2)); do
+    echo "Executando: mpirun -np $num_procs ./$program $num_grid $num_iterations $threads"
+    mpirun -np $num_procs ./$program $num_grid $num_iterations $threads
   done
 done
