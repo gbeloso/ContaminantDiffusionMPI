@@ -9,7 +9,6 @@ n=2048
 
 for ((num_grid=64; num_grid<=n; num_grid*=2)); do
   for ((num_iterations=2; num_iterations<=n; num_iterations*=2)); do
-    echo "Executando: mpirun -np $num_procs ./$program $num_grid $num_iterations $threads"
     mpirun -np $num_procs ./$program $num_grid $num_iterations $threads
   done
 done
