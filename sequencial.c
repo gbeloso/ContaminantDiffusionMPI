@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#define N 10 // Tamanho da grade
-#define T 2 // Número de iterações no tempo
+
+int N, T;
 #define D 0.1 // Coeficiente de difusão
 #define DELTA_T 0.01
 #define DELTA_X 1.0
+FILE * diffOut;
+FILE * matrixOut;
 
 void diff_eq(double **C, double **C_new) { //diff_eq(double C[N][N], double C_new[N][N]) {
     for (int t = 0; t < T; t++) {
@@ -25,11 +27,27 @@ void diff_eq(double **C, double **C_new) { //diff_eq(double C[N][N], double C_ne
             }
         }
         if ((t%100) == 0)
-        printf("interacao %d - diferenca=%g\n", t, difmedio/((N-2)*(N-2)));
+        fprintf(diffOut,"%d,%g\n", t, difmedio/((N-2)*(N-2)));
     }
 }
-int main() {
+int main(int argc, char ** argv) {
     // Concentração inicial
+
+    if(argc != 3){
+        printf("./seq grid_size num_iterations\n");
+        return 0;
+    }
+
+    N = atoi(argv[1]);
+    T = atoi(argv[2]);
+
+    char pathFileMatrix[200];
+    sprintf(pathFileMatrix, "results/seq/matrix/%d_%d.csv", N, T);
+    matrixOut = fopen(pathFileMatrix, "w+");
+    char pathFileDiff[200];
+    sprintf(pathFileDiff, "results/seq/diff/%d_%d.csv", N, T);
+    diffOut = fopen(pathFileDiff, "w+");
+
     double **C = (double **)malloc(N * sizeof(double *));
     if (C == NULL) {
         fprintf(stderr, "Memory allocation failed\n");
@@ -72,11 +90,15 @@ int main() {
 
     for(int i = 0; i < N; i++){
         for(int j = 0; j < N; j++){
-            printf("%.5f ", C[i][j]);
+            if(j == N-1){ 
+                fprintf(matrixOut, "%.5f\n", C[i][j]);
+            }
+            else{
+                fprintf(matrixOut, "%.5f,", C[i][j]);
+            }
         }
-        printf("\n");
     }
     // Exibir resultado para verificação
-    printf("Concentração final no centro: %f\n", C[N/2][N/2]);
+    //printf("Concentração final no centro: %f\n", C[N/2][N/2]);
     return 0;
 }
