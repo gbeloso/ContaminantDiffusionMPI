@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <mpi.h>
 
 int N, T;
 #define D 0.1 // Coeficiente de difusão
@@ -37,6 +38,9 @@ int main(int argc, char ** argv) {
         printf("./seq grid_size num_iterations\n");
         return 0;
     }
+    
+    double start_time, end_time;
+    start_time = MPI_Wtime();
 
     N = atoi(argv[1]);
     T = atoi(argv[2]);
@@ -98,7 +102,10 @@ int main(int argc, char ** argv) {
             }
         }
     }
+
+    end_time = MPI_Wtime();
     // Exibir resultado para verificação
     //printf("Concentração final no centro: %f\n", C[N/2][N/2]);
+    printf("%f\n", end_time - start_time); 
     return 0;
 }

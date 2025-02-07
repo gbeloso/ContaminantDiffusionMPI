@@ -19,11 +19,6 @@ int main(int argc, char **argv) {
     MPI_Status status;
 
     MPI_Init(&argc, &argv);
-
-    double start_time, end_time;
-
-    start_time = MPI_Wtime();
-
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
@@ -174,7 +169,7 @@ int main(int argc, char **argv) {
     if(rank == 0){
         for(int i = 0; i < N; i++){
             for(int j = 0; j < N; j++){
-                if(j == N-1){ 
+                if(j == N-1){
                     fprintf(matrixOut, "%.5f\n", matrix[i * N + j]);
                 }
                 else{
@@ -183,16 +178,11 @@ int main(int argc, char **argv) {
             }
         }
         //printf("Concentração final no centro: %f\n", matrix[N*N/2 + N/2]);
-	}
+    }
 
     if(rank == 0){
         free(matrix);
     }
-    end_time = MPI_Wtime();
-    if(rank == 0){
-	    printf("Tempo %f\n", end_time - start_time);
-    }
-
     free(sendcounts);
     free(displs);
     free(processNoRows);
