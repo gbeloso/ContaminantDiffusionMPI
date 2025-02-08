@@ -149,17 +149,29 @@ int main(int argc, char **argv) {
             }
         }
 
+        // if(t%100 == 0){
+        //     printf("Rank %d: diff = %g\n", rank, diff);
+        //     MPI_Gather(&diff, 1, MPI_DOUBLE, mediumDif, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+        //     if(rank == 0){
+        //         double temp = 0;
+        //         for(int i = 0; i < size; i++){
+        //             temp+=mediumDif[i];
+        //         }
+        //         printf("Iteração %d: Soma total = %g, Média = %g\n", t, temp, temp / ((N - 2) * (N - 2)));
+        //         fprintf(diffOut, "%d,%g\n", t, temp/((N-2)*(N-2)));
+        //     }
+        // }
+
         if(t%100 == 0){
-            MPI_Gather(&diff, 1, MPI_DOUBLE, mediumDif, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+            double global_sum=0;
+            printf("Rank %d: diff = %g\n", rank, diff);
+
+            MPI_Reduce(&diff, &global_sum, 1, MPI_DOUBLE, MPI_SUM,0, MPI_COMM_WORLD);
             if(rank == 0){
-                double temp = 0;
-                for(int i = 0; i < size; i++){
-                    temp+=mediumDif[i];
-                }
-                fprintf(diffOut, "%d,%g\n", t, temp/((N-2)*(N-2)));
+                printf("Iteração %d: Soma total = %g, Média = %g\n", t, global_sum, global_sum / ((N - 2) * (N - 2)));
+                fprintf(diffOut, "%d,%g\n", t, global_sum/((N-2)*(N-2)));
             }
         }
-        
     }
     
     MPI_Barrier(MPI_COMM_WORLD);
