@@ -3,19 +3,13 @@
 program="seq"
 
 # Number of times to run the program
-n=2048
+n=2000
 
-#for ((i=64; i<=n; i*=2)); do
-#  for ((j=2; j<=n; j*=2)); do
-#    echo "Matriz [$n][$n] - Qtd iteracao [$j]"
-#    ./$program $n $j
-    #./$program $i $j
-#  done
-#done
-
-for ((j=2;j<=n; j*=2));do
-	echo "Matriz [$n][$n] - Qtd iteracao [$j]"
-	./$program $n $j
+for((i=0; i<=2; i=i+1));do
+	echo "Teste $i de 2" 
+	for ((j=0;j<=500; j = j +10));do
+		echo "Matriz [$n][$n] - Qtd iteracao [$j]"
+		./$program $n $j
+	done
 done
-
 echo "Finalizado Sequencial"

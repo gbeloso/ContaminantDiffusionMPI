@@ -13,7 +13,7 @@ all:
 	mpicc -fopenmp -o mpiG mpiGather.c -lm
 	mpicc -o seq sequencial.c
 run:
-	./test_seq_segundo.sh
+	./test_seq.sh
 	./test_mpi.sh
 clean:
 	rm -rf mpi
