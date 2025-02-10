@@ -105,7 +105,7 @@ int main(int argc, char ** argv) {
 
     end_time = MPI_Wtime();
     // Exibir resultado para verificação
-    //printf("Concentração final no centro: %f\n", C[N/2][N/2]);
-    printf("%f\n", end_time - start_time); 
+    printf("Concentração final no centro: %f\n", C[N/2][N/2]);
+    printf("Tempo: %f\n", end_time - start_time); 
     return 0;
 }

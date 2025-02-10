@@ -1,0 +1,310 @@
+Teste 0 de 2
+Matriz [2000][2000] - Qtd iteracao [0]
+0.682093
+Matriz [2000][2000] - Qtd iteracao [10]
+0.774217
+Matriz [2000][2000] - Qtd iteracao [20]
+0.868909
+Matriz [2000][2000] - Qtd iteracao [30]
+0.984972
+Matriz [2000][2000] - Qtd iteracao [40]
+1.086000
+Matriz [2000][2000] - Qtd iteracao [50]
+1.176360
+Matriz [2000][2000] - Qtd iteracao [60]
+1.234553
+Matriz [2000][2000] - Qtd iteracao [70]
+1.376906
+Matriz [2000][2000] - Qtd iteracao [80]
+1.497000
+Matriz [2000][2000] - Qtd iteracao [90]
+1.648748
+Matriz [2000][2000] - Qtd iteracao [100]
+1.673814
+Matriz [2000][2000] - Qtd iteracao [110]
+1.713615
+Matriz [2000][2000] - Qtd iteracao [120]
+1.811742
+Matriz [2000][2000] - Qtd iteracao [130]
+2.033912
+Matriz [2000][2000] - Qtd iteracao [140]
+2.000192
+Matriz [2000][2000] - Qtd iteracao [150]
+2.087216
+Matriz [2000][2000] - Qtd iteracao [160]
+2.222307
+Matriz [2000][2000] - Qtd iteracao [170]
+2.295331
+Matriz [2000][2000] - Qtd iteracao [180]
+2.329730
+Matriz [2000][2000] - Qtd iteracao [190]
+2.496465
+Matriz [2000][2000] - Qtd iteracao [200]
+2.507432
+Matriz [2000][2000] - Qtd iteracao [210]
+2.644350
+Matriz [2000][2000] - Qtd iteracao [220]
+2.770105
+Matriz [2000][2000] - Qtd iteracao [230]
+2.850100
+Matriz [2000][2000] - Qtd iteracao [240]
+2.897977
+Matriz [2000][2000] - Qtd iteracao [250]
+3.033596
+Matriz [2000][2000] - Qtd iteracao [260]
+3.079160
+Matriz [2000][2000] - Qtd iteracao [270]
+3.214102
+Matriz [2000][2000] - Qtd iteracao [280]
+3.280956
+Matriz [2000][2000] - Qtd iteracao [290]
+3.357739
+Matriz [2000][2000] - Qtd iteracao [300]
+3.447530
+Matriz [2000][2000] - Qtd iteracao [310]
+3.659952
+Matriz [2000][2000] - Qtd iteracao [320]
+3.661068
+Matriz [2000][2000] - Qtd iteracao [330]
+3.728462
+Matriz [2000][2000] - Qtd iteracao [340]
+3.835810
+Matriz [2000][2000] - Qtd iteracao [350]
+3.877774
+Matriz [2000][2000] - Qtd iteracao [360]
+3.972059
+Matriz [2000][2000] - Qtd iteracao [370]
+4.102442
+Matriz [2000][2000] - Qtd iteracao [380]
+4.221447
+Matriz [2000][2000] - Qtd iteracao [390]
+4.241646
+Matriz [2000][2000] - Qtd iteracao [400]
+4.339024
+Matriz [2000][2000] - Qtd iteracao [410]
+4.441417
+Matriz [2000][2000] - Qtd iteracao [420]
+4.503068
+Matriz [2000][2000] - Qtd iteracao [430]
+4.628692
+Matriz [2000][2000] - Qtd iteracao [440]
+4.794076
+Matriz [2000][2000] - Qtd iteracao [450]
+4.816572
+Matriz [2000][2000] - Qtd iteracao [460]
+4.901658
+Matriz [2000][2000] - Qtd iteracao [470]
+4.942131
+Matriz [2000][2000] - Qtd iteracao [480]
+5.153646
+Matriz [2000][2000] - Qtd iteracao [490]
+5.148737
+Matriz [2000][2000] - Qtd iteracao [500]
+5.362033
+Teste 1 de 2
+Matriz [2000][2000] - Qtd iteracao [0]
+0.696039
+Matriz [2000][2000] - Qtd iteracao [10]
+0.721808
+Matriz [2000][2000] - Qtd iteracao [20]
+0.811971
+Matriz [2000][2000] - Qtd iteracao [30]
+0.913632
+Matriz [2000][2000] - Qtd iteracao [40]
+1.004696
+Matriz [2000][2000] - Qtd iteracao [50]
+1.095017
+Matriz [2000][2000] - Qtd iteracao [60]
+1.176937
+Matriz [2000][2000] - Qtd iteracao [70]
+1.283517
+Matriz [2000][2000] - Qtd iteracao [80]
+1.386121
+Matriz [2000][2000] - Qtd iteracao [90]
+1.445402
+Matriz [2000][2000] - Qtd iteracao [100]
+1.576850
+Matriz [2000][2000] - Qtd iteracao [110]
+1.645251
+Matriz [2000][2000] - Qtd iteracao [120]
+1.724548
+Matriz [2000][2000] - Qtd iteracao [130]
+1.813229
+Matriz [2000][2000] - Qtd iteracao [140]
+1.904746
+Matriz [2000][2000] - Qtd iteracao [150]
+1.985785
+Matriz [2000][2000] - Qtd iteracao [160]
+2.087489
+Matriz [2000][2000] - Qtd iteracao [170]
+2.236439
+Matriz [2000][2000] - Qtd iteracao [180]
+2.287249
+Matriz [2000][2000] - Qtd iteracao [190]
+2.359510
+Matriz [2000][2000] - Qtd iteracao [200]
+2.501175
+Matriz [2000][2000] - Qtd iteracao [210]
+2.554646
+Matriz [2000][2000] - Qtd iteracao [220]
+2.741067
+Matriz [2000][2000] - Qtd iteracao [230]
+2.789784
+Matriz [2000][2000] - Qtd iteracao [240]
+2.903841
+Matriz [2000][2000] - Qtd iteracao [250]
+2.999650
+Matriz [2000][2000] - Qtd iteracao [260]
+2.984551
+Matriz [2000][2000] - Qtd iteracao [270]
+3.086258
+Matriz [2000][2000] - Qtd iteracao [280]
+3.239528
+Matriz [2000][2000] - Qtd iteracao [290]
+3.354168
+Matriz [2000][2000] - Qtd iteracao [300]
+3.424102
+Matriz [2000][2000] - Qtd iteracao [310]
+3.450287
+Matriz [2000][2000] - Qtd iteracao [320]
+3.539595
+Matriz [2000][2000] - Qtd iteracao [330]
+3.722442
+Matriz [2000][2000] - Qtd iteracao [340]
+3.811961
+Matriz [2000][2000] - Qtd iteracao [350]
+3.808644
+Matriz [2000][2000] - Qtd iteracao [360]
+3.919944
+Matriz [2000][2000] - Qtd iteracao [370]
+4.122840
+Matriz [2000][2000] - Qtd iteracao [380]
+4.187129
+Matriz [2000][2000] - Qtd iteracao [390]
+4.251742
+Matriz [2000][2000] - Qtd iteracao [400]
+4.267817
+Matriz [2000][2000] - Qtd iteracao [410]
+4.435854
+Matriz [2000][2000] - Qtd iteracao [420]
+4.445092
+Matriz [2000][2000] - Qtd iteracao [430]
+4.652293
+Matriz [2000][2000] - Qtd iteracao [440]
+4.628770
+Matriz [2000][2000] - Qtd iteracao [450]
+4.832719
+Matriz [2000][2000] - Qtd iteracao [460]
+4.797546
+Matriz [2000][2000] - Qtd iteracao [470]
+5.012547
+Matriz [2000][2000] - Qtd iteracao [480]
+5.030703
+Matriz [2000][2000] - Qtd iteracao [490]
+5.214214
+Matriz [2000][2000] - Qtd iteracao [500]
+5.185830
+Teste 2 de 2
+Matriz [2000][2000] - Qtd iteracao [0]
+0.622168
+Matriz [2000][2000] - Qtd iteracao [10]
+0.732912
+Matriz [2000][2000] - Qtd iteracao [20]
+0.833086
+Matriz [2000][2000] - Qtd iteracao [30]
+0.901769
+Matriz [2000][2000] - Qtd iteracao [40]
+1.023355
+Matriz [2000][2000] - Qtd iteracao [50]
+1.106347
+Matriz [2000][2000] - Qtd iteracao [60]
+1.210183
+Matriz [2000][2000] - Qtd iteracao [70]
+1.297516
+Matriz [2000][2000] - Qtd iteracao [80]
+1.353279
+Matriz [2000][2000] - Qtd iteracao [90]
+1.473394
+Matriz [2000][2000] - Qtd iteracao [100]
+1.591793
+Matriz [2000][2000] - Qtd iteracao [110]
+1.672728
+Matriz [2000][2000] - Qtd iteracao [120]
+1.709710
+Matriz [2000][2000] - Qtd iteracao [130]
+1.885277
+Matriz [2000][2000] - Qtd iteracao [140]
+1.917898
+Matriz [2000][2000] - Qtd iteracao [150]
+1.989323
+Matriz [2000][2000] - Qtd iteracao [160]
+2.163559
+Matriz [2000][2000] - Qtd iteracao [170]
+2.210840
+Matriz [2000][2000] - Qtd iteracao [180]
+2.307533
+Matriz [2000][2000] - Qtd iteracao [190]
+2.402599
+Matriz [2000][2000] - Qtd iteracao [200]
+2.449240
+Matriz [2000][2000] - Qtd iteracao [210]
+2.611560
+Matriz [2000][2000] - Qtd iteracao [220]
+2.689218
+Matriz [2000][2000] - Qtd iteracao [230]
+2.777888
+Matriz [2000][2000] - Qtd iteracao [240]
+2.877467
+Matriz [2000][2000] - Qtd iteracao [250]
+3.026647
+Matriz [2000][2000] - Qtd iteracao [260]
+3.062233
+Matriz [2000][2000] - Qtd iteracao [270]
+3.163270
+Matriz [2000][2000] - Qtd iteracao [280]
+3.314712
+Matriz [2000][2000] - Qtd iteracao [290]
+3.351225
+Matriz [2000][2000] - Qtd iteracao [300]
+3.433950
+Matriz [2000][2000] - Qtd iteracao [310]
+3.450568
+Matriz [2000][2000] - Qtd iteracao [320]
+3.598141
+Matriz [2000][2000] - Qtd iteracao [330]
+3.648483
+Matriz [2000][2000] - Qtd iteracao [340]
+3.731055
+Matriz [2000][2000] - Qtd iteracao [350]
+3.810270
+Matriz [2000][2000] - Qtd iteracao [360]
+3.908141
+Matriz [2000][2000] - Qtd iteracao [370]
+4.073648
+Matriz [2000][2000] - Qtd iteracao [380]
+4.168161
+Matriz [2000][2000] - Qtd iteracao [390]
+4.180654
+Matriz [2000][2000] - Qtd iteracao [400]
+4.301273
+Matriz [2000][2000] - Qtd iteracao [410]
+4.444946
+Matriz [2000][2000] - Qtd iteracao [420]
+4.557356
+Matriz [2000][2000] - Qtd iteracao [430]
+4.532350
+Matriz [2000][2000] - Qtd iteracao [440]
+4.804615
+Matriz [2000][2000] - Qtd iteracao [450]
+4.704769
+Matriz [2000][2000] - Qtd iteracao [460]
+4.818906
+Matriz [2000][2000] - Qtd iteracao [470]
+4.975311
+Matriz [2000][2000] - Qtd iteracao [480]
+4.983974
+Matriz [2000][2000] - Qtd iteracao [490]
+5.235128
+Matriz [2000][2000] - Qtd iteracao [500]
+5.626204
+Finalizado MPI

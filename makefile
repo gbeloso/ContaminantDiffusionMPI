@@ -9,10 +9,11 @@ all:
 	mkdir results/mpi/matrix
 	mkdir results/seq/matrix
 	mkdir results/seq/diff
-	mpicc -o mpi mpi.c -fopenmp
+	mpicc -fopenmp -o mpi mpi.c -lm
+	mpicc -fopenmp -o mpiG mpiGather.c -lm
 	mpicc -o seq sequencial.c
 run:
-	./test_seq.sh
+	./test_seq_segundo.sh
 	./test_mpi.sh
 clean:
 	rm -rf mpi
